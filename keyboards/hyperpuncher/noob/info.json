@@ -5,6 +5,7 @@
 	"bootloader": "rp2040",
 	"diode_direction": "COL2ROW",
 	"features": {
+		"caps_word": true,
 		"command": false,
 		"console": false,
 		"encoder": true,
@@ -41,6 +42,9 @@
 	},
 	"encoder": {
 		"rotary": [{ "pin_a": "GP14", "pin_b": "GP15" }]
+	},
+	"caps_word": {
+		"double_tap_shift_turns_on": true
 	},
 	"layouts": {
 		"LAYOUT": {
